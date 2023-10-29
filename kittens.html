@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kittens.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <header>
+        <div class="menu-bar">
+            <ul>
+               <li class="active"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+               <li><a href="about.html"><i class="fa fa-user" aria-hidden="true"></i>About us</a></li>
+               <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Breeding</a></li>
+               <li><a href="kittens.html"><i class="fa fa-camera" aria-hidden="true"></i>Kittens</a></li>
+               <li><a href="#"><i class="fa fa-compress" aria-hidden="true"></i>Contact</a>
+            </ul>
+        </div> 
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h1>Our lovely kittens</h1>
+            <div class="borde"></div>
+            <div class="gallery">
+                <a href="2-img.png" class="image">
+                    <img src="2-img.png" alt="">
+                </a>
+                <a href="3-img.png" class="image">
+                    <img src="3-img.png" alt="">
+                </a>
+                <a href="4-img.png" class="image">
+                    <img src="4-img.png" alt="">
+                </a>
+                <a href="a-img.png" class="image">
+                    <img src="a-img.png" alt="">
+                </a>
+                <a href="b-img.png" class="image">
+                    <img src="b-img.png" alt="">
+                </a>
+                <a href="c-img.png" class="image">
+                    <img src="c-img.png" alt="">
+                </a>
+                <a href="d-img.png" class="image">
+                    <img src="d-img.png" alt="">
+                </a>
+                <a href="e-img.png" class="image">
+                    <img src="e-img.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+                enabled: true
+            }
+        })
+    </script>
+</body>
+</html>
