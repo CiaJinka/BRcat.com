@@ -151,3 +151,16 @@
     background: #2F4F4F;
     clip-path: circle(200px at left 20px);
 }
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 998px) {
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 576px) {
+    
+}
